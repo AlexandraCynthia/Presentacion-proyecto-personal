@@ -112,6 +112,16 @@ header{
     height: 24px;
 }
 
+.redes1{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.redes1:hover{
+    text-decoration: none;
+}
+
+
 .imagen_perfil{
     width: 368px;
     height: 368px;
