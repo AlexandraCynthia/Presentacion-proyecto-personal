@@ -1,0 +1,399 @@
+
+/* Google Fonts */
+.raleway-googlefont {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+
+body{
+  background-color:#F5F5F5;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Navegador */
+
+.navegador{
+    width: 1136px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px, 0px, 32px, 0px;
+    margin-left: 90px;
+    background-color: #F5F5F5;
+    }
+
+    .items_nav1{
+        width: 134px;
+        height: 24px;
+        gap:8px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .items_nav1 li{
+        font-weight: 500;
+    }
+
+    .items_nav li{
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+.logo1{
+    display: flex;
+    align-items: flex-start;
+    margin-top:-4px;
+    width: 30px;
+    height: auto;
+}
+
+/* Sección de encabezado */
+header{
+    display: flex;
+    flex-direction: row;
+    width: 1136px;
+    height: 368px;
+    margin-left: 90px;
+    background-color: #F5F5F5;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.items_nav{
+    width: 670px;
+    height: 19px;
+    gap:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.titulo-principal{
+    width: 751px;
+    height: 122px;
+    font-size: 52px;
+    margin-right: 25px;
+}
+
+.parrafo_header{
+    width: 751px;
+    height: 52px;
+    font-size: 22px;
+}
+
+.redes_sociales{
+    display: flex;
+    gap:24px;
+}
+
+.redes2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icono_redes{
+    width: 24px;
+    height: 24px;
+}
+
+.imagen_perfil{
+    width: 368px;
+    height: 368px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.header_profile_{
+    display: flex;
+    align-items: center;
+}
+
+/* Segunda sección - Sobre Mi- */
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 240px;
+    padding: 60px;
+    gap:10px;
+    background-color: #EAF2FD;
+}
+
+.article1{
+    width: 1136px;
+    height: 255px;
+    gap:16px;
+    margin-bottom:64px;
+    margin-left: 25px;
+}
+
+.parrafo_section{
+    width: 751px;
+    height: 133px;
+}
+
+.img_firma{
+    width: 140px;
+    height: 52px;
+    margin-top: -100px;
+}
+
+/* Tercera sección -Skills-Hobbies */
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-section{
+    display: flex;
+    flex-direction: row;
+    width: 1136px;
+    height: 174px;
+    gap:16px;
+    align-items: stretch;
+    margin: 0px 0px;
+}
+
+.Skills-item{
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    gap:8px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+ 
+}
+
+.section--sec{
+    width: 1136px;
+    height: 244px;
+    gap:32px;
+    background-color: #F5F5F5;
+    padding-top: 50px;
+}
+
+.parrafo--section{
+    padding: 0px;
+    margin: 0px;
+}
+
+.section--titulo{
+    width: 81px;
+    height: 38px;
+    align-items: center;
+    font-size: 32px;
+    margin-top: -10px;
+}
+
+.section--h1{
+    align-items: center;
+    padding-left: 45%;
+}
+
+.section-principal{
+    margin-bottom: 100px;
+}
+
+/* Section - Formación académica */
+
+.formacion-academica{
+    width: 1440px;
+    height: 420px;
+    padding: 82px;
+    gap:32px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EAF2FD;
+}
+.formacion-contenedor{
+    align-items: center;
+    justify-content: center;
+}
+
+.formacion-titulo h2{
+    display: flex;
+    align-items: center;
+    width: 339px;
+    height: 38px;
+    margin-left: 29%;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.formacion-locales{
+    display: flex;
+    flex-direction: row;
+    width: 1136px;
+    height: 347px;
+    gap:16px;
+}
+
+.contenedor-imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 328px;
+    height: 246px;
+    padding: 16px;
+    gap:10px;
+    background-color: #FFFFFF;
+    margin-left: 18px;
+}
+
+.img-formacion{
+    width: 192px;
+    height: 130px;
+}
+
+.carrera-formacion{
+    width: 200px;
+    height: 26px;
+    font: 22px;
+    color: #464646;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.fecha-formacion{
+    width: 300px;
+    height: 19px;
+    font: 16px;
+    color:#464646;
+    margin-top: -15px;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+/* Experiencia profesional */
+
+.experiencias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.experiencie-h2{
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.experiencia-profesional{
+    width: 1136px;
+    height: auto;
+    gap:32px;
+    background-color: #F5F5F5;
+    margin-left: 100px;
+}
+
+.experiencia--item{
+    display: flex;
+    flex-direction: row;
+    width: 1136px;
+    height: 406px;
+    gap:16px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    
+}
+
+.img-experience{
+    width: 700px;
+    height: 356px;
+    padding: 0px;
+}
+
+.button-experience{
+    display: flex;
+    flex-direction: row;
+}
+
+.item--experience-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.boton1{
+width: 116px;
+height: 51px;
+border: 1px;
+padding: 16px;
+gap:10px;
+background-color: #2A7AE4;
+font-weight: 400;
+font-size: 16px;
+margin-right: 10px;
+color: #F5F5F5;
+
+}
+
+.a-github{
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.a-github:hover{
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+
+
+.boton2{
+width: 105px;
+height: 51px;
+border: 1px;
+padding: 16px;
+gap:10px;
+background-color: #2A7AE4;
+font-weight: 400;
+font-size: 16px;
+color: #F5F5F5;
+}
+
+.boton1:hover{
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#2A7AE4;
+}
+.boton2:hover{
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#2A7AE4;
+}
