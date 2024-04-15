@@ -407,3 +407,98 @@ color: #F5F5F5;
     border-style: solid;
     border-color:#2A7AE4;
 }
+
+
+
+/* Sección formulario de contacto */
+
+.section--contacto{
+    width: 1140px;
+    height: 788px;
+    padding: 64px;
+    gap:10px;
+    background-color: #EAF2FD;
+}
+
+.subclase-section--contacto{
+    width: 656px;
+    height: 84px;
+    gap:8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.telefono-contacto{
+    width: 464px;
+    height: 593px;
+}
+
+.Subclase2-section--contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto{
+    width: 141px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.contacto-2{
+    width: 656px;
+    height: 38px;
+    
+}
+
+.contacto--2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    padding: 0px;
+}
+
+label{
+    width: 636px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #A2A2A2;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+input{
+    width: 632px;
+    height: 20px;
+    gap:4px;
+    background-color: #FFFFFF;
+    border: none;
+
+}
+
+.asunto{
+    width: 632px;
+    height: 56px;
+    gap:8px;
+    border: none;
+    padding: 0px, 12px, 0px, 12px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A2A2A2;
+}
+
+.mensaje{
+    width: 656px;
+    height: 133px;
+    border-radius: 4px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    border: none;
+}
