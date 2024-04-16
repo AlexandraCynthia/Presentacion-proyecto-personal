@@ -13,6 +13,7 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  line-height: 1;
 }
 
 /* Navegador */
@@ -94,6 +95,8 @@ header{
     width: 751px;
     height: 52px;
     font-size: 22px;
+    font-weight: 400;
+    color:#464646;
 }
 
 .redes_sociales{
@@ -112,10 +115,24 @@ header{
     height: 24px;
 }
 
-.redes1{
+.redes0{
     text-decoration: none;
     color: black;
     font-weight: 400;
+}
+.redes0:hover{
+    text-decoration: none;
+}
+
+.redes-0-contacto{
+    font-weight: 700;
+}
+
+
+.redes1{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
 }
 .redes1:hover{
     text-decoration: none;
@@ -321,7 +338,6 @@ h2{
     height: auto;
     gap:32px;
     background-color: #F5F5F5;
-    margin-left: 100px;
 }
 
 .experiencia--item{
@@ -332,13 +348,20 @@ h2{
     gap:16px;
     margin-bottom: 30px;
     margin-left: 100px;
-    
+    justify-content: space-between;
 }
 
 .img-experience{
-    width: 700px;
+    width: 751px;
     height: 356px;
     padding: 0px;
+}
+
+.contenedor-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .button-experience{
@@ -412,9 +435,16 @@ color: #F5F5F5;
 
 /* Sección formulario de contacto */
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 100px white inset;
+
+}
+
 .section--contacto{
-    width: 1140px;
-    height: 788px;
+    width: 100%;
+    height: 600px;
     padding: 64px;
     gap:10px;
     background-color: #EAF2FD;
@@ -426,16 +456,19 @@ color: #F5F5F5;
     gap:8px;
     display: flex;
     flex-direction: row;
+    margin-left: 5%;
 }
 
 .telefono-contacto{
     width: 464px;
     height: 593px;
+    padding-right: 3%;
 }
 
 .Subclase2-section--contacto{
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
 }
 
 .form-contacto{
@@ -464,41 +497,193 @@ color: #F5F5F5;
     padding: 0px;
 }
 
-label{
-    width: 636px;
-    height: 16px;
+.label-text{
+    width: 50px;
+    height: 14px;
     font-weight: 400;
-    font-size: 12px;
     color: #A2A2A2;
     background-color: #FFFFFF;
     border: none;
+    font-size:12px;
+    padding-left: 21px;
+    margin-top: 10px;
 }
 
-input{
-    width: 632px;
-    height: 20px;
-    gap:4px;
-    background-color: #FFFFFF;
-    border: none;
-
+.label-email{
+    color: #2A7AE4;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 620px;
+    height: 10px;
 }
 
-.asunto{
-    width: 632px;
+.input-label-nombre{
+    width: 656px;
     height: 56px;
     gap:8px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column; 
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #E8EFCF;
+}
+
+.input-text{
+    width: 625px;
+    height: 15px;
+    gap: 4px;
+    background-color: #FFFFFF;
+    margin-left: 16px;
+    outline-color: transparent;
+    border-color: transparent;
+    margin-top: -6px;
+}
+
+.input-label-nombre .input-text{
+    outline-color: transparent;
+    border-color: transparent;
+    background-color: #FFFFFF;
+
+}
+
+
+.input-label-email{
+    width: 656px;
+    height: 56px;
+    gap:8px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column; 
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.input-label-email .input-email{
+    outline-color: transparent;
+    border-color: transparent;
+    background-color: #FFFFFF;
+}
+.input-email{
+    width: 620px;
+    height: 15px;
+    gap: 4px;
+    background-color: #FFFFFF !important;
+    margin-left: 16px;
+    outline-color: transparent;
+    border-color: transparent;
+    margin-top: -6px;
+    padding-top: 10px;
+}
+.text-area-asunto{
+    width: 620px;
+    height: 24px;
+    gap:8px;
+    padding-left: 12px;
     border: none;
-    padding: 0px, 12px, 0px, 12px;
     font-weight: 400;
     font-size: 16px;
     color: #A2A2A2;
+    outline-color: transparent;
+    font-family: "Raleway";
+
+
+}
+.div-text-area-asunto{
+     width: 656px;
+     height: 56px;
+     gap:8px;   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #FFFFFF;
+     font-weight: 400;
+     color: #A2A2A2;
+     font-size: 16px;
+     border-bottom: 2px solid #E8EFCF;
+
+
 }
 
-.mensaje{
+.div-text-area-mensaje{
     width: 656px;
     height: 133px;
+    gap:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #E8EFCF;
+
+}
+.text-area-mensaje{
+    width: 620px;
+    height: 116px;
     border-radius: 4px;
     font-weight: 400;
     background-color: #FFFFFF;
     border: none;
+    outline-color: transparent;
+    font-size: 16px;
+    color: #A2A2A2;
+    padding-left: 12px;
+    margin-left:0px;
+    margin-top: 15px;
+    font-family: "Raleway";
+
+}
+
+.input-text:focus {
+    outline-color: transparent;
+}
+
+.input-email:focus{
+    outline-color: transparent;
+}
+
+.button-form{
+    width: 144px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 16px;
+    gap:10px;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border: none;
+
+}
+
+.button-form:hover{
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#2A7AE4;
+}
+
+
+/*Footer*/
+.pie-pagina{
+    width: 1440px;
+    height: 60px;
+    padding: 32px;
+    gap:10px;
+    background-color: #FFFFFF;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-h3{
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
 }

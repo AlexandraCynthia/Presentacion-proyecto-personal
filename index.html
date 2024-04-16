@@ -22,12 +22,12 @@
             <li>Alexandra.com</li>
         </ul>
         <ul class="items_nav">
-            <li><a href=»#SobreMi>Sobre mi</a></li>
-            <li><a href=»#skills>Skills</a></li>
-            <li><a href=»#Hobbies>Hobbies</a></li>
-            <li><a href=»#formacion>Formación</a></li>
-            <li><a href=»#proyectos>Proyectos</a></li>
-            <li><a href=»#contacto»>contacto@alexandra.com </a></li>
+            <li><a class="redes0" href="#SobreMi">Sobre mi</a></li>
+            <li><a class="redes0" href="#skills">Skills</a></li>
+            <li><a class="redes0" href="#Hobbies">Hobbies</a></li>
+            <li><a class="redes0" href="#formacion">Formación</a></li>
+            <li><a class="redes0" href="#proyectos">Proyectos</a></li>
+            <li><a class="redes0 redes-0-contacto"  href=»#contacto»>contacto@alexandra.com </a></li>
          </ul>
     </nav>
 
@@ -61,7 +61,7 @@
         </div>
     </header>
 
-    <section class="section-principal">
+    <section id="SobreMi" class="section-principal">
         <section class="section1">
             <article class="article1">
                 <h2>Sobre mi</h2>
@@ -70,7 +70,7 @@
             </article>
         </section>
 
-        <section class="section-2">
+        <section id="skills" class="section-2">
             <section class="section--sec">
                 <div class="section--h1">
                     <h1 class="section--titulo">Skills</h1>
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section--sec">
+            <section id="Hobbies"  class="section--sec">
                     <div class="section--h1">
                         <h1 class="section--titulo">Hobbies</h1>
                     </div>     
@@ -136,7 +136,7 @@
         </section>
     </section>
 
-    <section class="formacion-academica">
+    <section id="formacion" class="formacion-academica">
         <section class="formacion-contenedor">
             <section class="formacion-titulo">
                 <h2 class="formacion-titulo">Formación académica</h2>
@@ -167,12 +167,12 @@
         </section>
     </section>
 
-<section class="experiencia-profesional">
+<section id="proyectos" class="experiencia-profesional">
     <section class="experiencias">
         <h1 class="experiencias">Experiencia profesional</h1>
     </section>
     <section class="experiencia--item">
-        <div><img class="img-experience" src="https://res.cloudinary.com/dgxnatqij/image/upload/v1713149485/ONE/encriptador_de_texto_lo6fwa.png" alt="encriptador"></div>
+        <div class="contenedor-img"><img class="img-experience" src="https://res.cloudinary.com/dgxnatqij/image/upload/v1713149485/ONE/encriptador_de_texto_lo6fwa.png" alt="encriptador"></div>
         <div class="item--experience-2">
             <h2 class="experiencie-h2">Encriptador de texto</h2>
             <p>Challengue Oracle</p>
@@ -190,10 +190,10 @@
                 <button class="boton2"><a href="https://alexandracynthia.github.io/Juego_Ahorcado/" class="a-github" target="_blank">Ver demo</a></button>
             </div>
         </div>
-        <div><img class="img-experience" src="https://res.cloudinary.com/dgxnatqij/image/upload/v1713149484/ONE/ahorcado_hgisb4.png" alt="ahorcado"></div>
+        <div class="contenedor-img"><img class="img-experience" src="https://res.cloudinary.com/dgxnatqij/image/upload/v1713149484/ONE/ahorcado_hgisb4.png" alt="ahorcado"></div>
     </section>
     <section class="experiencia--item">
-        <div><img class="img-experience" src="https://res.cloudinary.com/dgxnatqij/image/upload/v1713149485/ONE/sedysa_xs6igy.png" alt="sedysa"></div>
+        <div class="contenedor-img"><img class="img-experience" src="https://res.cloudinary.com/dgxnatqij/image/upload/v1713149485/ONE/sedysa_xs6igy.png" alt="sedysa"></div>
         <div class="item--experience-2">
             <h2 class="experiencie-h2">Sedysa</h2>
             <p>Proyecto personal</p>
@@ -212,8 +212,10 @@
                 <button class="boton2"><a href="https://alexandracynthia.github.io/ProyectoFinal_PeruTravel/" class="a-github" target="_blank">Ver demo</a></button>
             </div>
         </div>
-        <div><img class="img-experience" src="https://res.cloudinary.com/dgxnatqij/image/upload/v1713151592/ONE/perutravel_sonvaa.png" alt="perutravel"></div>
+        <div class="contenedor-img"><img class="img-experience" src="https://res.cloudinary.com/dgxnatqij/image/upload/v1713151592/ONE/perutravel_sonvaa.png" alt="perutravel"></div>
     </section>
+</section>
+
     <section class="section--contacto">
         <section class="subclase-section--contacto">
             <img class="telefono-contacto" src="https://res.cloudinary.com/dgxnatqij/image/upload/v1713218624/ONE/telefono_kzexqw.png" alt="telefono">
@@ -228,25 +230,37 @@
                     <br />
                 </div>
                 <form action="#" class="form-contacto">
-                   
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <div class="input-label-nombre">
+                        <label class="label-text" for="nombre">Nombre</label>
+                        <input class="input-text" type="text" id="nombre" name="nombre" required autocomplete="off">
+                    </div>
+                        <br /> 
+                    <div class="input-label-email">
+                        <label class="label-email" for="email">E-mail</label>
+                        <input class="input-email" id="email" name="email" required autocomplete="off">
+                    </div>
                     <br /> 
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
+                    <div class="div-text-area-asunto">
+                        <textarea class="text-area-asunto" id="asunto" cols="30" rows="10">Asunto</textarea>
+                    </div>
                     <br /> 
-                    <textarea class="asunto" id="asunto" cols="30" rows="10">Asunto</textarea>
-                    <br /> 
-                    <textarea class="mensaje" id="mensaje" cols="30" rows="10">Mensaje</textarea>
-                    <br /> 
+                    <div class="div-text-area-mensaje">
+                        <textarea class="text-area-mensaje" id="mensaje" cols="30" rows="10">Mensaje</textarea>
+                    </div>
+                        <br /> 
                     <button class="button-form">Enviar mensaje</button>
                    
                 </form>
             </div>
         </section>
     </section>
+    <footer class="pie-pagina">
+        <div class="footer">
+            <h3 class="footer-h3">Desarrollado por Alexandra Mendoza</h3>
+            <p class="footer-h3">2024</p>
+        </div>
+    </footer>
 
-</section>
 
 
 
