@@ -692,7 +692,7 @@ input:-webkit-autofill:focus {
 }
 
 @media only screen and (max-width: 768px){
-    body{
+    .body--class{
         width: 768px;
         background-color:#F5F5F5;
         margin: 0;
@@ -707,7 +707,7 @@ input:-webkit-autofill:focus {
     
       .header-profile{
         height: 230px;
-        margin-left: 60px;
+        margin-left: 45px;
       }
 
     .redes0{
@@ -717,6 +717,10 @@ input:-webkit-autofill:focus {
         margin-left:-620px;
      }
       
+    .redes1{
+        font-size: 16px;
+    }
+
      .items_nav1{
         margin-left: -80px;
      }
@@ -733,7 +737,7 @@ input:-webkit-autofill:focus {
      .header_profile{
         width: 524px;
         padding-right: 50px;
-           }
+       }
 
      .parrafo_header{
         margin-top: -70px;
@@ -752,15 +756,15 @@ input:-webkit-autofill:focus {
      }
 
      .titulo-principal{
-        font-size: 22PX;
-     }
-
-     .titulo-principal{
+        font-size: 22px;
         width: 500px;
      }
+
+     
 
      .parrafo_header{
         width: 500px;
+        font-size: 16px;
      }
 
      .redes_sociales{
@@ -768,15 +772,223 @@ input:-webkit-autofill:focus {
      }
 
      .parrafo_section{
-        width: 640px;
+        width: 650px;
         height: 112px;
         gap:16px;
         background-color: #EAF2FD;
         
      }
 
-    .article1{
-        
+
+    .section1{
+        width: 768px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding-left: 3%;
     }
- 
-}
+
+    .section-principal{
+        width: 768px;
+    }
+
+    /*skills*/
+    .section--sec{
+        width: 768px;
+        height: 390px;
+        padding: 32px;
+        gap: 32px;
+    }
+
+    .Skills-item{
+        width: 180px;
+        height: 118px;
+        padding: 16px;
+        gap:8px;
+    }
+
+    .skills-section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 760px;
+        height: 80px;
+        margin-left: 6%;
+    }
+
+    .section--titulo{
+        width: 57px;
+        height: 26px;
+        font-weight: 700;
+        font-size: 22px;
+        margin-left: 5%;
+    }
+    /*formacion academica*/
+    .formacion-academica{
+        width: 768px;
+        height: 291px;
+        padding: 32px;
+        gap: 32px;
+    }
+    .img-formacion{
+        width: 74px;
+        height: 58px;
+    }
+    .contenedor-imagen{
+        width: 170px;
+        height: 80px;
+        padding: 16px;
+    }
+    p .carrera-formacion{
+        font-size: 16px;
+    }
+    .carrera-formacion {
+        padding-left: 5%;
+    }
+    .fecha-formacion{
+        padding-left: 5%;
+
+    }
+
+    .formacion-titulo{
+        font-size: 22px;
+    }
+    .formacion-locales{
+        width: 704px;
+        height: 169px;
+      }
+      div.formacion-item{
+        width: 224px;
+        height: 169px;
+      }
+
+      /*Experiencia*/
+
+    .experiencia--item{
+        width: 704px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mediaquery-tablet-experience{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .experiencias{
+        font-size: 22px;
+        margin-right: 150px;
+    }
+    .img-experience{
+        width: 680px;
+        margin-right: 100px;
+    }
+    .experiencie-h2{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    .item--experience-2{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: -40px;
+    }
+    /*contacto*/
+    .form-contacto{
+        width: 768px;
+        height: auto;
+    }
+    .contacto-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-items: flex-start;
+    }
+
+    .telefono-contacto{
+        display: none;
+    }
+
+    .contacto{
+        font-size: 22px;
+    }
+
+    p.contacto{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contacto--2{
+        font-size: 16px;
+        width: 656px;
+        height: 18px;
+    }
+
+    .form-contacto{
+        height: 56px;
+        margin-top: 5%;
+
+    }
+   
+    .subclase-section--contacto{
+        margin-right: 250px;
+        width: 768px;
+    }
+     .section--contacto{
+        width: 768px;
+        padding-left: 0px;
+        height: 537px;
+     }
+     
+     .button-form{
+        width: 133px;
+        height: 100px;
+        gap: 10px;
+        font-size: 14px;
+        padding: 15px;
+        margin-top: 1%;
+        }
+
+        .input-label-nombre{
+            width: 648px;
+            height: 75px;
+            gap:5px;
+            padding: 5px;
+        }
+
+        .input-label-email{
+            width: 654px;
+            height: 75px;
+            gap:5px;
+            padding: 1px;
+        }
+        .label-email{
+            height: 15px;
+        }
+
+        .text-area-asunto{
+            width: 704px;
+            height: 56px;
+        }
+
+        .text-area-mensaje{
+            width: 704px;
+            height: 133px;
+        }
+       
+        /*footer*/
+        .pie-pagina{
+            width: 768px;
+            height: 62px;
+            padding: 32px;
+            gap:10px;
+        }
+    }
