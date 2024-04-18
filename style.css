@@ -126,6 +126,8 @@ header{
 
 .redes-0-contacto{
     font-weight: 700;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -139,12 +141,13 @@ header{
 }
 
 
-.imagen_perfil{
+
+
+.imagen_perfil1{
     width: 368px;
     height: 368px;
     overflow: hidden;
     border-radius: 50%;
-
 }
 
 .header_profile_{
@@ -686,4 +689,94 @@ input:-webkit-autofill:focus {
     font-size: 16px;
     font-weight: 500;
     color: #464646;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        width: 768px;
+        background-color:#F5F5F5;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        line-height: 1;
+      }
+    
+      .navegador{
+        height: 80px;
+      }
+    
+      .header-profile{
+        height: 230px;
+        margin-left: 60px;
+      }
+
+    .redes0{
+        display: none;
+     }
+     .redes-0-contacto{
+        margin-left:-620px;
+     }
+      
+     .items_nav1{
+        margin-left: -80px;
+     }
+
+     .header_profile_{
+        width: 768px;
+        height: 210px;
+        gap:32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+     }
+
+     .header_profile{
+        width: 524px;
+        padding-right: 50px;
+           }
+
+     .parrafo_header{
+        margin-top: -70px;
+     }
+
+     .imagen_perfil{
+        margin-left: -250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .imagen_perfil1{
+        width: 146px;
+        height: 146px;
+     }
+
+     .titulo-principal{
+        font-size: 22PX;
+     }
+
+     .titulo-principal{
+        width: 500px;
+     }
+
+     .parrafo_header{
+        width: 500px;
+     }
+
+     .redes_sociales{
+        margin-top: -30px;    
+     }
+
+     .parrafo_section{
+        width: 640px;
+        height: 112px;
+        gap:16px;
+        background-color: #EAF2FD;
+        
+     }
+
+    .article1{
+        
+    }
+ 
 }
