@@ -26,8 +26,9 @@ input:-webkit-autofill:focus {
 
 .telefono-contacto{
     width: 464px;
-    height: 593px;
+    height: 552px;
     padding-right: 3%;
+    padding-top: 6%;
 }
 
 .Subclase2-section--contacto{
@@ -39,6 +40,7 @@ input:-webkit-autofill:focus {
 .form-contacto{
     display: flex;
     flex-direction: column;
+    gap:10px;
 }
 
 .contacto{
@@ -357,7 +359,7 @@ input:-webkit-autofill:focus {
     .form-contacto{
         width: 296px;
         height: 397px;
-        gap:10px;
+        gap:12px;
         padding-top: 10%;
     }
     .input-label-nombre {
@@ -413,5 +415,5 @@ input:-webkit-autofill:focus {
     .text-area-mensaje{
     font-size: 14px;
     }
-
+ 
 }
