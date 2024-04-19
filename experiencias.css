@@ -1,0 +1,205 @@
+/* Experiencia profesional */
+
+.experiencias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.experiencie-h2{
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.experiencia-profesional{
+    width: 1136px;
+    height: auto;
+    gap:32px;
+    background-color: #F5F5F5;
+}
+
+.experiencia--item{
+    display: flex;
+    flex-direction: row;
+    width: 1136px;
+    height: 406px;
+    gap:16px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+.img-experience{
+    width: 751px;
+    height: 356px;
+    padding: 0px;
+}
+
+.contenedor-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-experience{
+    display: flex;
+    flex-direction: row;
+}
+
+.item--experience-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.boton1{
+width: 116px;
+height: 51px;
+border: 1px;
+padding: 16px;
+gap:10px;
+background-color: #2A7AE4;
+font-weight: 400;
+font-size: 16px;
+margin-right: 10px;
+color: #F5F5F5;
+
+}
+
+.a-github{
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.a-github:hover{
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+
+
+.boton2{
+width: 105px;
+height: 51px;
+border: 1px;
+padding: 16px;
+gap:10px;
+background-color: #2A7AE4;
+font-weight: 400;
+font-size: 16px;
+color: #F5F5F5;
+}
+
+.boton1:hover{
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#2A7AE4;
+}
+.boton2:hover{
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#2A7AE4;
+}
+
+@media only screen and (max-width: 768px){
+       /*Experiencia*/
+
+       .experiencia--item{
+        width: 704px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mediaquery-tablet-experience{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .experiencias{
+        font-size: 22px;
+        margin-right: 150px;
+    }
+    .img-experience{
+        width: 680px;
+        margin-right: 100px;
+    }
+    .experiencie-h2{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    .item--experience-2{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: -40px;
+    }
+}
+@media only screen and (max-width: 360px){
+    /*Sección experiencia*/
+
+    .experiencia-profesional{
+        padding-top: 20px;
+        padding-right: 0%;
+        margin-left: -5%;
+      }
+      .contenedor-img{
+        width: 296px;
+        height: 251px;
+        gap:16px
+      }
+
+      .img-experience{
+        width: 296px;
+        height: 251px;
+        gap:16px
+      }
+      .experiencia--item{
+        display: flex;
+        flex-direction: column;
+      }
+      .mediaquery-tablet-experience{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      .experiencia-mobil{
+        margin-right:63% ;
+        font-size: 22px;
+      }
+      .item--experience-2{
+        margin-left:-7%;
+        padding-left: 0%;
+      }
+      .experiencie-h2{
+        font-size: 16px;
+      }
+      .experiencie-p{
+        font-size: 14px;
+      }
+      .boton1 .boton2{
+        width: 108px;
+        height: 40px;
+        padding: 12px, 16px, 12px, 16px;
+        gap:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+}

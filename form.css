@@ -1,0 +1,417 @@
+/* Sección formulario de contacto */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 100px white inset;
+
+}
+
+.section--contacto{
+    width: 100%;
+    height: 600px;
+    padding: 64px;
+    gap:10px;
+    background-color: #EAF2FD;
+}
+
+.subclase-section--contacto{
+    width: 656px;
+    height: 84px;
+    gap:8px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.telefono-contacto{
+    width: 464px;
+    height: 593px;
+    padding-right: 3%;
+}
+
+.Subclase2-section--contacto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto{
+    width: 141px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.contacto-2{
+    width: 656px;
+    height: 38px;
+    
+}
+
+.contacto--2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    padding: 0px;
+}
+
+.label-text{
+    width: 50px;
+    height: 14px;
+    font-weight: 400;
+    color: #A2A2A2;
+    background-color: #FFFFFF;
+    border: none;
+    font-size:12px;
+    padding-left: 21px;
+    margin-top: 10px;
+}
+
+.label-email{
+    color: #2A7AE4;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 620px;
+    height: 10px;
+}
+
+.input-label-nombre{
+    width: 656px;
+    height: 56px;
+    gap:8px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column; 
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #E8EFCF;
+}
+
+.input-text{
+    width: 625px;
+    height: 15px;
+    gap: 4px;
+    background-color: #FFFFFF;
+    margin-left: 16px;
+    outline-color: transparent;
+    border-color: transparent;
+    margin-top: -6px;
+}
+
+.input-label-nombre .input-text{
+    outline-color: transparent;
+    border-color: transparent;
+    background-color: #FFFFFF;
+
+}
+
+
+.input-label-email{
+    width: 656px;
+    height: 56px;
+    gap:8px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column; 
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.input-label-email .input-email{
+    outline-color: transparent;
+    border-color: transparent;
+    background-color: #FFFFFF;
+}
+.input-email{
+    width: 620px;
+    height: 15px;
+    gap: 4px;
+    background-color: #FFFFFF !important;
+    margin-left: 16px;
+    outline-color: transparent;
+    border-color: transparent;
+    margin-top: -6px;
+    padding-top: 10px;
+}
+.text-area-asunto{
+    width: 620px;
+    height: 24px;
+    gap:8px;
+    padding-left: 12px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A2A2A2;
+    outline-color: transparent;
+    font-family: "Raleway";
+
+
+}
+.div-text-area-asunto{
+     width: 656px;
+     height: 56px;
+     gap:8px;   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #FFFFFF;
+     font-weight: 400;
+     color: #A2A2A2;
+     font-size: 16px;
+     border-bottom: 2px solid #E8EFCF;
+
+
+}
+
+.div-text-area-mensaje{
+    width: 656px;
+    height: 133px;
+    gap:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #E8EFCF;
+
+}
+.text-area-mensaje{
+    width: 620px;
+    height: 116px;
+    border-radius: 4px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    border: none;
+    outline-color: transparent;
+    font-size: 16px;
+    color: #A2A2A2;
+    padding-left: 12px;
+    margin-left:0px;
+    margin-top: 15px;
+    font-family: "Raleway";
+
+}
+
+.input-text:focus {
+    outline-color: transparent;
+}
+
+.input-email:focus{
+    outline-color: transparent;
+}
+
+.button-form{
+    width: 144px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 16px;
+    gap:10px;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border: none;
+
+}
+
+.button-form:hover{
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#2A7AE4;
+}
+
+
+/*Footer*/
+.pie-pagina{
+    width: 1440px;
+    height: 60px;
+    padding: 32px;
+    gap:10px;
+    background-color: #FFFFFF;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-h3{
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+}
+
+@media only screen and (max-width: 768px){
+    /*contacto*/
+    .form-contacto{
+        width: 768px;
+        height: auto;
+    }
+    .contacto-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-items: flex-start;
+    }
+
+    .telefono-contacto{
+        display: none;
+    }
+
+    .contacto{
+        font-size: 22px;
+    }
+
+    p.contacto{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contacto--2{
+        font-size: 16px;
+        width: 656px;
+        height: 18px;
+    }
+
+    .form-contacto{
+        height: 56px;
+        margin-top: 5%;
+        gap:10px
+
+    }
+   
+    .subclase-section--contacto{
+        margin-right: 250px;
+        width: 768px;
+    }
+     .section--contacto{
+        width: 768px;
+        padding-left: 0px;
+        height: 537px;
+     }
+     
+     .button-form{
+        width: 133px;
+        height: 100px;
+        gap: 10px;
+        font-size: 14px;
+        padding: 15px;
+        margin-top: 1%;
+        }
+
+        .input-label-nombre{
+            width: 648px;
+            height: 75px;
+            gap:5px;
+            padding: 5px;
+        }
+
+        .input-label-email{
+            width: 654px;
+            height: 75px;
+            gap:5px;
+            padding: 1px;
+        }
+        .label-email{
+            height: 15px;
+        }
+
+        .text-area-asunto{
+            width: 704px;
+            height: 56px;
+        }
+
+        .text-area-mensaje{
+            width: 704px;
+            height: 133px;
+        }
+}
+
+@media only screen and (max-width: 360px){
+     
+    /*Contacto*/
+    .section--contacto{
+        width: 360px;
+        height: 580px;
+    }
+    .contacto{
+        font-size: 22px;
+    }
+    .contacto--2{
+        width: 296px;
+        height:auto;
+        line-height: 18.78px;
+    }
+    .form-contacto{
+        width: 296px;
+        height: 397px;
+        gap:10px;
+        padding-top: 10%;
+    }
+    .input-label-nombre {
+        width: 296px;
+        height: 397px;
+        gap:12px;
+    }
+    .input-label-email{
+        width: 305px;
+        height: 397px;
+        gap:12px;
+        background-color: white;
+    }
+    .label-text{
+        font-size: 12px;
+        margin-left: -2%;
+    }
+    .label-email{
+        font-size: 12px;
+        margin-left: -2%;
+    }
+    .input-text {
+        width: 270px;
+    }
+    .input-email {
+        width: 250px ;
+    }
+    .text-area-asunto{
+        width: 290px;
+        height: 56px;
+        margin-right: 53%;
+        background-color: white;
+        font-size: 14px;
+    }
+    .div-text-area-asunto{
+        background-color: #EAF2FD  ;          
+    }
+    .text-area-mensaje{
+        width: 290px;
+        height: 133px;
+        margin-right:52%;
+    }
+    .div-text-area-mensaje{
+        background-color: #EAF2FD ;
+    }
+    .button-form{
+        width: 133px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 2%;
+    }
+    .text-area-mensaje{
+    font-size: 14px;
+    }
+
+}

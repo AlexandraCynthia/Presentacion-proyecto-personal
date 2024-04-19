@@ -1,0 +1,250 @@
+/* Sección de encabezado */
+header{
+    display: flex;
+    flex-direction: row;
+    width: 1136px;
+    height: 368px;
+    margin-left: 90px;
+    background-color: #F5F5F5;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.items_nav{
+    width: 670px;
+    height: 19px;
+    gap:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.titulo-principal{
+    width: 751px;
+    height: 122px;
+    font-size: 52px;
+    margin-right: 25px;
+}
+
+.parrafo_header{
+    width: 751px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 400;
+    color:#464646;
+}
+
+.redes_sociales{
+    display: flex;
+    gap:24px;
+}
+
+.redes2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icono_redes{
+    width: 24px;
+    height: 24px;
+}
+
+.redes0{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.redes0:hover{
+    text-decoration: none;
+}
+
+.redes-0-contacto{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+
+.redes1{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
+}
+.redes1:hover{
+    text-decoration: none;
+}
+
+.imagen_perfil1{
+    width: 368px;
+    height: 368px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.header_profile_{
+    display: flex;
+    align-items: center;
+}
+
+/* Segunda sección - Sobre Mi- */
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 240px;
+    padding: 60px;
+    gap:10px;
+    background-color: #EAF2FD;
+    
+}
+
+.article1{
+    width: 1136px;
+    height: 255px;
+    gap:16px;
+    margin-bottom:64px;
+    margin-left: 35px;
+    margin-top: 5%;
+    line-height: 20px;
+}
+
+.parrafo_section{
+    width: 751px;
+    height: 133px;
+}
+
+.img_firma{
+    width: 140px;
+    height: 52px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .header_profile_{
+        width: 768px;
+        height: 210px;
+        gap:32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+     }
+
+     .header_profile{
+        width: 524px;
+        padding-right: 50px;
+       }
+
+       .imagen_perfil1{
+        width: 146px;
+        height: 146px;
+     }
+
+     .parrafo_header{
+        margin-top: -70px;
+     }
+     .titulo-principal{
+        font-size: 22px;
+        width: 500px;
+     }
+   
+     .parrafo_header{
+        width: 500px;
+        font-size: 16px;
+     }
+     .parrafo_section{
+        width: 650px;
+        height: 112px;
+    }
+
+     .section1{
+        width: 768px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding-left: 3%;
+    }
+
+    .section-principal{
+        width: 768px;
+    }
+}
+@media only screen and (max-width: 360px){
+    /*seccion header*/
+    .header-profile{
+        width: 360px;
+        padding-left:-6%;
+        gap:16px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 4%;
+    }
+
+    .header_profile_{
+        margin-left: -6%;
+    }
+
+    .imagen_perfil1{
+        width: 98px;
+        height: 98px;
+        margin-left: -9%;
+    }
+    
+    .titulo-principal{
+        font-size: 22px;
+        width: 320px;
+    }
+    .parrafo_header{
+        font-size: 14px;
+        width: 320px;
+        padding-left: -6%;
+        margin-left: 0%;
+    }
+
+    .redes_sociales{
+        width: 318px;
+        height: 16px;
+        gap:8px
+    }
+
+    .redes1{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .icono_redes{
+        width: 15px;
+        height: 15px;
+    }
+
+    /*sobre mi*/
+    .section-principal{
+        width: 360px;
+        height: 300px;
+        gap:10px;
+    }
+    .article1 h2{
+        font-size: 22px;
+        margin-left: -2%;
+
+    }
+
+    .parrafo_section{
+        font-size: 14px;
+        width: 320px;
+        margin-left: -2%;
+        line-height: 16.44px;
+        text-align: justify;
+        margin-top: 1%;
+      }
+
+      .img_firma{
+        margin-top: 1%;
+        margin-left: -4%;
+
+      }
+
+}
