@@ -143,6 +143,7 @@ body{
 
         .body--class{
             width: 360px;
+            overflow-x: hidden;
         }
 
         .navegador{
