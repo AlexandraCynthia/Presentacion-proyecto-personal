@@ -301,7 +301,7 @@ input:-webkit-autofill:focus {
      .section--contacto{
         width: 768px;
         padding-left: 0px;
-        height: 537px;
+        height: 600px;
      }
      
      .button-form{
@@ -339,17 +339,26 @@ input:-webkit-autofill:focus {
             width: 704px;
             height: 133px;
         }
+        .div-text-area-mensaje{
+            margin-top: -3%;
+        }
 }
 
 @media only screen and (max-width: 360px){
      
     /*Contacto*/
+    .contacto-section{
+        width: 300px;
+    }
     .section--contacto{
-        width: 360px;
+        width: 300px !important;
         height: 580px;
     }
     .contacto{
         font-size: 22px;
+    }
+    .contacto-2{
+        width: 300px;
     }
     .contacto--2{
         width: 296px;
@@ -368,7 +377,7 @@ input:-webkit-autofill:focus {
         gap:12px;
     }
     .input-label-email{
-        width: 305px;
+        width: 307px;
         height: 397px;
         gap:12px;
         background-color: white;
@@ -380,6 +389,7 @@ input:-webkit-autofill:focus {
     .label-email{
         font-size: 12px;
         margin-left: -2%;
+        width: 300px;
     }
     .input-text {
         width: 270px;
@@ -388,22 +398,23 @@ input:-webkit-autofill:focus {
         width: 250px ;
     }
     .text-area-asunto{
-        width: 290px;
+        width: 290px !important;
         height: 56px;
-        margin-right: 53%;
         background-color: white;
         font-size: 14px;
     }
     .div-text-area-asunto{
-        background-color: #EAF2FD  ;          
+        background-color: white  ;   
+        width: 307px;       
     }
     .text-area-mensaje{
         width: 290px;
         height: 133px;
-        margin-right:52%;
     }
     .div-text-area-mensaje{
         background-color: #EAF2FD ;
+        width: 307px;
+        margin-top: -10%;
     }
     .button-form{
         width: 133px;
@@ -414,6 +425,9 @@ input:-webkit-autofill:focus {
     }
     .text-area-mensaje{
     font-size: 14px;
+    }
+    .subclase-section--contacto{
+        width: 300px;
     }
  
 }

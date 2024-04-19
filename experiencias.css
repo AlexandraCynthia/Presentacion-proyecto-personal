@@ -114,6 +114,11 @@ color: #F5F5F5;
 @media only screen and (max-width: 768px){
        /*Experiencia*/
 
+       .experiencia-profesional{
+        width: 768px;
+       }
+
+
        .experiencia--item{
         width: 704px;
         height: auto;
@@ -124,6 +129,7 @@ color: #F5F5F5;
     .mediaquery-tablet-experience{
         display: flex;
         flex-direction: column-reverse;
+        width: 250px;
     }
     .experiencias{
         font-size: 22px;
@@ -150,6 +156,11 @@ color: #F5F5F5;
         align-items: flex-start;
         margin-left: -40px;
     }
+    .contenedor-img{
+      padding: 0%;
+      margin: 0%;
+      width: 700px;
+    }
 }
 @media only screen and (max-width: 360px){
     /*Sección experiencia*/
@@ -158,21 +169,24 @@ color: #F5F5F5;
         padding-top: 20px;
         padding-right: 0%;
         margin-left: -5%;
+        width: 300px;
       }
       .contenedor-img{
-        width: 296px;
+        width: 266px !important;
         height: 251px;
-        gap:16px
+        padding: 0%;
+        margin: 0%;
       }
 
       .img-experience{
-        width: 296px;
+        width: 326px;
         height: 251px;
-        gap:16px
+        padding-left: 10%;
       }
       .experiencia--item{
         display: flex;
         flex-direction: column;
+        width: 100px;
       }
       .mediaquery-tablet-experience{
         display: flex;
@@ -180,12 +194,12 @@ color: #F5F5F5;
       }
 
       .experiencia-mobil{
-        margin-right:63% ;
+        margin-left:380px ;
         font-size: 22px;
       }
       .item--experience-2{
-        margin-left:-7%;
-        padding-left: 0%;
+        width: 250px;
+        margin-left: -63%;
       }
       .experiencie-h2{
         font-size: 16px;

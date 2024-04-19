@@ -86,6 +86,7 @@ header{
 .header_profile_{
     display: flex;
     align-items: center;
+    
 }
 
 /* Segunda sección - Sobre Mi- */
@@ -134,12 +135,20 @@ header{
 
      .header_profile{
         width: 524px;
-        padding-right: 50px;
        }
+
+       .header-profile{
+        width: 700px;
+       }
+
 
        .imagen_perfil1{
         width: 146px;
         height: 146px;
+     }
+
+     .article1{
+        width: 768px;
      }
 
      .parrafo_header{
@@ -160,7 +169,7 @@ header{
     }
 
      .section1{
-        width: 768px;
+        width: 700px;
         height: 180px;
         display: flex;
         flex-direction: column;
@@ -174,46 +183,80 @@ header{
     }
 }
 @media only screen and (max-width: 360px){
+
+    
     /*seccion header*/
+
+    header{
+        width: 300px;
+        padding: 0%;
+        margin: 0%;
+    }
+
     .header-profile{
-        width: 360px;
-        padding-left:-6%;
-        gap:16px;
         display: flex;
+        width: 360px;
         flex-direction: column-reverse;
-        padding-top: 4%;
+       margin: 0%;
+       padding: 0%;
+    }
+    div .header_profile{
+        width: 300px !important;
     }
 
     .header_profile_{
         margin-left: -6%;
+        width: 300px !important;
+        margin: 0%;
+        padding: 0%;
+        margin-top: -20%;
     }
 
     .imagen_perfil1{
         width: 98px;
         height: 98px;
-        margin-left: -9%;
+        margin-right: -108%;
+        margin-bottom: 5%;
+    }
+
+    .imagen_perfil{
+        width: 300px;
     }
     
     .titulo-principal{
         font-size: 22px;
         width: 320px;
+        padding: 0%;
+        margin-left: 5%;
+        padding-top: 65%;
+
     }
+
+   
+
     .parrafo_header{
         font-size: 14px;
         width: 320px;
-        padding-left: -6%;
-        margin-left: 0%;
+        margin-left: 5%;
+        padding-bottom: 5%;
+      
     }
 
     .redes_sociales{
-        width: 318px;
-        height: 16px;
-        gap:8px
+        width: 300px;
+        height: 30px;
+        gap:6px;
+        margin-bottom: 45%;
+    
     }
 
     .redes1{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 600;
+    }
+    .redes2{
+        margin-left: 5%;
+        padding-bottom: 10%;
     }
     .icono_redes{
         width: 15px;
@@ -228,14 +271,26 @@ header{
     }
     .article1 h2{
         font-size: 22px;
-        margin-left: -2%;
+    }
+    
+    .article1{
+        width: 330px;
+        background-color: #EAF2FD;
+        padding:0%;
+        margin:0%;
+        margin-left: 4%;
 
+    }
+
+    .section1{
+        width: 280px !important;
+        padding-top: 10%;
+        margin: 0%;
     }
 
     .parrafo_section{
         font-size: 14px;
-        width: 320px;
-        margin-left: -2%;
+        width: 310px;
         line-height: 16.44px;
         text-align: justify;
         margin-top: 1%;
